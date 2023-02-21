@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, papel e tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="robotArea">
+            <img src="../img/robot-img-120.png" alt="">
+            <div class="robotChoice"></div>
+        </section>
+
+        <section class="res">
+            <p>Escolha pedra, papel ou tesoura...</p>
+        </section>
+
+        <section class="playerArea">
+            <div class="playerChoice"></div>
+            <img src="../img/player-img-120.png" alt="">
+            <input type="button" value="pedra" onclick="choiceRock()">
+            <input type="button" value="papel" onclick="choicePaper()">
+            <input type="button" value="tesoura" onclick="choiceScissors()">
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
